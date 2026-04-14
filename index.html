@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhirendra Kumar | Digital Universe</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Trailing Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- Cosmic Background Canvas -->
+    <canvas id="cosmic-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <a href="#hero" class="nav-logo">Dhirendra<span class="highlight">.</span></a>
+        <ul>
+            <li><a href="#hero">Origin</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Power Matrix</a></li>
+            <li><a href="#projects">Missions</a></li>
+            <li><a href="#education">Timeline</a></li>
+            <li><a href="#achievements">Stats</a></li>
+            <li><a href="#contact">Signal</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content wrapper -->
+    <main class="universe-container">
+        
+        <!-- SECTION 1: HERO -->
+        <section id="hero" class="zone">
+            <div class="hero-content floating-card">
+                <h1 class="glitch" data-text="Exploring the Code Universe of Dhirendra Kumar">Exploring the Code Universe of Dhirendra Kumar</h1>
+                <h2 id="typing-text"></h2>
+                <a href="#about" class="btn-neon">Initiate Journey <i class="fa-solid fa-rocket"></i></a>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ABOUT -->
+        <section id="about" class="zone">
+            <div class="section-header">
+                <h2>01. Origin Story</h2>
+                <div class="line"></div>
+            </div>
+            <div class="hologram-card">
+                <div class="avatar-container">
+                    <!-- Avatar image placeholder -->
+                    <img src="photo.jpeg" alt="Dhirendra Avatar" id="avatar-img" onerror="this.src='https://via.placeholder.com/200x200/0a0a1a/00f3ff?text=DK'">
+                </div>
+                <div class="story-text">
+                    <p>A final-year B.Tech student navigating the world of code...</p>
+                    <p>My journey in Electronics & Communication at Sagar Institute Of Research & Technology has equipped me with a robust understanding of systems, but my true power lies in software. I specialize in <span class="highlight">C++</span> and <span class="highlight">STL</span>, creating scalable logic and immersive experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SKILLS -->
+        <section id="skills" class="zone">
+            <div class="section-header">
+                <h2>02. Power Matrix</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Orbs -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-cuttlefish skill-icon"></i>
+                    <h3>C++</h3>
+                    <div class="progress-bar"><div class="fill" data-width="90%"></div></div>
+                </div>
+               
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h3>HTML/CSS</h3>
+                    <div class="progress-bar"><div class="fill" data-width="95%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="fill" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database skill-icon"></i>
+                    <h3>SQL</h3>
+                    <div class="progress-bar"><div class="fill" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-php skill-icon"></i>
+                    <h3>PHP</h3>
+                    <div class="progress-bar"><div class="fill" data-width="75%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: PROJECTS -->
+        <section id="projects" class="zone">
+            <div class="section-header">
+                <h2>03. Mission Logs</h2>
+                <div class="line"></div>
+            </div>
+            <div class="project-container">
+                <div class="project-card" data-tilt>
+                    <div class="project-layer top">
+                        <h3>Portfolio Website</h3>
+                        <p class="badge">Web Protocol</p>
+                    </div>
+                    <div class="project-layer middle">
+                        <p>Developed a responsive personal portfolio using HTML5, CSS3, and JavaScript. Showcases projects, skills, and experience with a clean UI design.</p>
+                    </div>
+                    <div class="project-layer bottom">
+                        <a href="#" class="btn-outline">View Demo <i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt>
+                    <div class="project-layer top">
+                        <h3>Quiz Application</h3>
+                        <p class="badge">Desktop C++</p>
+                    </div>
+                    <div class="project-layer middle">
+                        <p>Built a quiz system using C++ with Teacher and Student modules. Implemented OOP concepts and file handling for data storage. Features include quiz attempts, performance tracking, and question management.</p>
+                    </div>
+                    <div class="project-layer bottom">
+                        <a href="#" class="btn-outline">Access Source <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: EDUCATION -->
+        <section id="education" class="zone">
+            <div class="section-header">
+                <h2>04. Timeline Portal</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2023 - 2027</span>
+                        <h3>B.Tech Electronics & Communication</h3>
+                        <p>Sagar Institute Of Research & Technology, Bhopal</p>
+                        <span class="grade">CGPA: 7.49</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2021 - 2023</span>
+                        <h3>ISC (12th Grade)</h3>
+                        <p>St. Xavier's College, Ranchi</p>
+                        <span class="grade">86.4%</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year">2020 - 2021</span>
+                        <h3>Matriculation (10th Grade)</h3>
+                        <p>Saraswati Vidya Mandir</p>
+                        <span class="grade">87.8%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: ACHIEVEMENTS -->
+        <section id="achievements" class="zone">
+            <div class="section-header">
+                <h2>05. Stats Dashboard</h2>
+                <div class="line"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3 class="counter" data-target="200">0</h3>
+                    <p>Problems Solved</p>
+                    <span class="platform">GeeksforGeeks</span>
+                </div>
+                <div class="stat-box">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Certified</h3>
+                    <p>IoT Security</p>
+                    <span class="platform">Skill India</span>
+                </div>
+                <div class="stat-box">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h3>Competitive</h3>
+                    <p>Programming</p>
+                    <span class="platform">Active Hobby</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: CONTACT -->
+        <section id="contact" class="zone">
+            <div class="section-header">
+                <h2>06. Communication Hub</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-hologram">
+                <p>Establishing secure connection...</p>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="CodeChef"><i class="fa-solid fa-code"></i></a>
+                    <a href="mailto:dhirendra@example.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+917028462642" class="social-icon" aria-label="Mobile"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                </div>
+                <div class="footer-note">End of Transmission &copy; 2024 Dhirendra Kumar</div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
